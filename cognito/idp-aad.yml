@@ -140,7 +140,7 @@ Outputs:
             - !Ref CognitoAppClient
             - "&scope=email openid" 
   LoginUrlDevTest:
-    Description: "Login URL Only with SAML and UserPool (Ireland Region)"
+    Description: "Login URL with SAML and UserPool (Ireland Region)"
     Value:
       - !Join
         - ""
