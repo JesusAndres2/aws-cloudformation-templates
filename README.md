@@ -8,3 +8,5 @@ Repository with useful cloudformation templates that i have been used.
 
 * __secrets-manager__:
 1. Simple secret with multiple values to store as params in a JSON file
+* __cloudfront__:
+1. CDN for static web content with S3 buckets to store code and logs. Allocated with Waf ACL and Lambda Edge
