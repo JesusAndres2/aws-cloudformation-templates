@@ -73,6 +73,7 @@ Resources:
       AllowedOAuthFlowsUserPoolClient: true
       SupportedIdentityProviders:
         - [!Ref UserPoolIdentityProviderOIDC]
+        - COGNITO
         # For dev/test purposes - [!Ref UserPoolIdentityProviderOIDC, "COGNITO"]
       ExplicitAuthFlows:
         - ADMIN_NO_SRP_AUTH
