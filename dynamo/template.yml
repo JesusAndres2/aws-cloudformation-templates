@@ -39,8 +39,6 @@ Resources:
       AttributeDefinitions:
         - AttributeName: "id"
           AttributeType: "S"
-        - AttributeName: "key2"
-          AttributeType: "N"          
       KeySchema:
         - AttributeName: "id"
           KeyType: "HASH"

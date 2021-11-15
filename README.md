@@ -16,3 +16,5 @@ Repository with useful cloudformation templates that i have been used.
 1. Basic S3 privte bucket capable to invoke lambda after PutObject Event
 * __secrets-manager__:
 1. Simple secret with multiple values to store as params in a JSON file
+* __Cloudwatch__:
+1. Distinct types of events that can be built
